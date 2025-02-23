@@ -46,7 +46,7 @@ function App() {
       {/* <Navbar/> */}
 
 
-      <Router>
+      {/* <Router>
         <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert} />
         <div className="container my-3">
@@ -61,15 +61,15 @@ function App() {
             </Route>
           </Routes>
         </div>
-      </Router>
+      </Router> */}
 
 
-      {/* <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
+      <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
       <Alert alert={alert} />
         <div className="container my-3">
         <TextForm showAlert={showAlert} heading="Enter The text to analyze below" mode={mode}/>
         <About/>
-        </div> */}
+        </div>
 
     </>
   );
